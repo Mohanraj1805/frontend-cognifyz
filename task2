@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INLINE CSS</title>
+</head>
+<body>
+    <div>
+        <h1 style="color:blue; font-size: 40px; background-color: aqua;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, neque?</h1>
+        <p style="color:greenyellow; font-size: 30px; background-color: green;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, quidem?</p>
+        <p style="color:brown; font-size: 20px; background-color: cornsilk;">Lorem ipsum dolor sit amet.</p>
+    </div>
+</body>
+</html>

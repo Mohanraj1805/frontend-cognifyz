@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+             body {
+            display: flex;
+             flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; 
+            margin: 0;
+        }
+
+        .card {
+            background-color: aqua;
+            height: 80vh;
+            width: 80vh;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+             margin-bottom: 20px; 
+        }
+
+        .button-style {
+           
+             padding: 10px 20px; 
+            font-size: 16px; 
+            cursor: pointer; 
+             display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="card" id="back" >
+        <div class="style"></div>
+                <h1>hello</h1>
+
+
+    </div>
+    <div class="button-style"> <button onclick="changecolor()"  >change color</button>
+    </div>
+
+           
+    <script>
+       var back=document.getElementById("back")
+       function changecolor(){
+        back.style.backgroundColor=getRandomColor()
+
+       }
+        function getRandomColor() {
+            var letters = '0123456789ABCDEF';
+            var color = '#';
+            for (var i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+
+    </script>
+</body>
+</html>
