@@ -1,0 +1,53 @@
+.btn {
+  border: none;
+  padding: 8px 20px;
+  border-radius: 10px;
+}
+
+.btn-primary {
+  background-color: #04ffdb;
+  color: white;
+}
+
+.btn-success {
+  background-color: #198754;
+  color: white;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+h2 {
+  color: #3014d0;
+  font-size: 30px;
+  font-style: italic;
+  font-variant: inherit;
+}
+
+nav {
+  background-color: #222;
+  padding: 10px;
+}
+nav a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 10px;
+  color: #fff;
+}
+
+p {
+  line-height: 30px;
+  text-indent: 30px;
+}
+p a {
+  text-decoration: none;
+  color: tomato;
+}
+
+/*# sourceMappingURL=style.css.map */
